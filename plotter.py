@@ -12,8 +12,8 @@ phi = np.empty(point_len)
 counter = 0
 for point in points:
     r[counter] = point[0]
-    theta[counter] = point[1]
-    phi[counter] = point[2]
+    theta[counter] = point[2] #flipped
+    phi[counter] = point[1] #flipped
     counter += 1
 
 # Convert to Cartesian coordinates

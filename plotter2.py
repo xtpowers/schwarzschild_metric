@@ -17,11 +17,12 @@ for point in points:
     counter += 1
 
 plt.figure(figsize=(8, 6))
-plt.plot(counter2, r_sol, label='r(tau)')
-plt.plot(counter2, theta_sol, label='theta(tau)')
-plt.plot(counter2, phi_sol, label='phi(tau)')
+#plt.plot(counter2, r_sol, label='r(tau)')
+plt.plot(counter2, r_sol * 1e-8, label='r(tau)')
+#plt.plot(counter2, theta_sol, label='theta(tau)')
+#plt.plot(counter2, phi_sol, label='phi(tau)')
 plt.xlabel("tau")
 plt.ylabel("Values")
-plt.yscale("log")  # Set y-axis to logarithmic scale
+#plt.yscale("log")  # Set y-axis to logarithmic scale
 plt.legend()
 plt.show()
