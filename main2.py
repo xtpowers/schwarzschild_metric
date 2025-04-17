@@ -1,3 +1,7 @@
+"""
+THIS FILE IS ONLY FOR TESTING DO NOT USE FOR MODELLING
+"""
+
 import math
 from copy import copy
 import scipy.constants
